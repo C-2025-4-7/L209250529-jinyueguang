@@ -7,6 +7,9 @@ int main ()
 	double x1, x2;
 	cout << "Enter a: ";
 	cin >> a;
+	if (a < 0) {
+		a = -a;
+	}
 	x1 = a;
 	do {
 		x2 = (x1 + a / x1) / 2.0;
